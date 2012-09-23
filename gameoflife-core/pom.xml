@@ -11,6 +11,14 @@
     <packaging>jar</packaging>
     <name>gameoflife-core</name>
     <url>${HUDSON_URL}</url>
+    <dependencies>
+        <dependency>
+            <groupId>org.jboss.ejb3</groupId>
+            <artifactId>jboss-ejb3-ext-api</artifactId>
+            <version>1.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
     <reporting>
         <plugins>
             <plugin>
